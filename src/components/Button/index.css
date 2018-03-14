@@ -1,0 +1,17 @@
+.button {
+  color: rgba(50, 50, 50, 1);
+  background: linear-gradient(120deg, rgba(50,50,50,0.05) 0%, rgb(50,50,50,0.1) 100%);
+  border-radius: 80px;
+  border: none;
+  outline: none;
+  padding: .5rem .8rem;
+  cursor: pointer;
+}
+
+.button:focus, .button:hover {
+  background: linear-gradient(120deg, rgba(52,148,230,0.5) 0%, rgb(236,110,173,0.5) 100%);
+}
+
+.button:active {
+  background: linear-gradient(120deg, rgba(52,148,230,0.8) 0%, rgb(236,110,173,0.8) 100%);
+}
